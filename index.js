@@ -1,5 +1,5 @@
-let $ = require("jquery");
+const $ = require("jquery");
 
-window.onload = function(){
-  $('body').css({background: "red"});
-}
+const Carousel = require("./renderer/Carousel");
+
+const carousel = new Carousel();
