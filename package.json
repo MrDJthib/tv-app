@@ -4,7 +4,7 @@
   "description": "Watch movies from torrent and various streaming service",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "electron ."
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/MrDJthib/tv-app/issues"
   },
-  "homepage": "https://github.com/MrDJthib/tv-app#readme"
+  "homepage": "https://github.com/MrDJthib/tv-app#readme",
+  "dependencies": {
+    "jquery": "^3.1.1"
+  }
 }
